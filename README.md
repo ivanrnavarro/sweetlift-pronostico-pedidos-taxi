@@ -30,6 +30,17 @@ Sweet Lift Taxi recopiló datos históricos de pedidos de taxi en aeropuertos. P
 - El bosque aleatorio cumple el requisito (RECM menor a 48) y reduce el error en cerca de un 30 % frente al modelo de referencia.
 - El árbol de decisión mostró la mayor variación entre configuraciones y se descartó para la prueba final.
 
+## Gráficas
+
+**Pedidos de taxi por hora (marzo – agosto 2018)**
+![Pedidos de taxi por hora (marzo – agosto 2018)](images/pedidos_por_hora.png)
+
+**Descomposición de la serie: tendencia, estacionalidad y residuos**
+![Descomposición de la serie: tendencia, estacionalidad y residuos](images/descomposicion_serie.png)
+
+**Pedidos reales frente a predicciones en el conjunto de prueba**
+![Pedidos reales frente a predicciones en el conjunto de prueba](images/predicciones_vs_reales.png)
+
 ## Conclusiones
 
 - Las variables de calendario, los rezagos y la media móvil capturan bien la tendencia y la estacionalidad diaria de los pedidos.
